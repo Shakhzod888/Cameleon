@@ -1,0 +1,58 @@
+.MainPage {
+
+    h1 {
+        color: #ADB3CC;
+        font-weight: 700;
+        font-size: 36px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .performance {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 30px;
+        .site {
+            color: #ADB3CC;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .day {
+            color: #585F80;
+        }
+    }
+
+    .userStatus {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 20px;
+        .us {
+            font-size: 25px;
+            color: #ADB3CC;
+            font-weight: 600;
+        }
+
+        .st {
+            color: #585F80;
+            letter-spacing: 1px;
+        }
+    }
+
+    .topSites {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 30px;
+        .topSt {
+            font-size: 25px;
+            color: #ADB3CC;
+        }
+
+        .outLinks {
+            color: #585F80;
+        }
+    }
+}

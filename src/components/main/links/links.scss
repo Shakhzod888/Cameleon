@@ -1,0 +1,23 @@
+.linkes {
+    display: flex;
+    gap: 140px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-top: 50px;
+
+    .ll {
+        color: #55597D;
+
+    }
+    .link_1 {
+        display: flex;
+        gap: 30px;
+        line-height: 40px;
+    }
+
+    .link_2 {
+        display: flex;
+        line-height: 40px;
+        gap: 50px;
+    }
+}
